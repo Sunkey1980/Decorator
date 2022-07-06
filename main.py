@@ -18,4 +18,4 @@ def second_func(*args):
 
 if __name__ == '__main__':
     first_func(1,6,3,8,45)
-    second_func(4,2)
+    second_func(4,2,8)
