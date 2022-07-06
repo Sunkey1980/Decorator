@@ -1,4 +1,4 @@
-from decorator import log_file
+from decorator import log_file, log_file_with_path
 
 
 @log_file
@@ -8,7 +8,8 @@ def first_func(*args):
         res += arg
     return res
 
-@log_file
+
+@log_file_with_path('logs/logfile.txt')
 def second_func(*args):
     res = 1
     for arg in args:
@@ -17,5 +18,5 @@ def second_func(*args):
 
 
 if __name__ == '__main__':
-    first_func(1,6,3,8,45)
-    second_func(4,2,8)
+    first_func(1, 6, 3, 8, 45)
+    second_func(4, 2, 8)

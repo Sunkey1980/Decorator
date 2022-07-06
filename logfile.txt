@@ -1,2 +1,1 @@
-2022-07-06 20:50:47.544207 running "first_func" with arguments (1, 6, 3, 8, 45),{} result is 63 
-2022-07-06 20:50:47.545210 running "second_func" with arguments (4, 2, 8),{} result is 64 
+2022-07-06 21:03:00.881587 running "first_func" with arguments (1, 6, 3, 8, 45),{} result is 63 
